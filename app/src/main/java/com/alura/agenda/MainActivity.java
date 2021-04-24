@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
                     "Trindade Costa",
                     "Day Freire",
                     "canudorio"));
-        ListView listAlunos = findViewById(R.id._list_alunos);
+        ListView listAlunos = findViewById(R.id.activity_main_lista_de_alunos);
         listAlunos.setAdapter(new ArrayAdapter<>(
                 this,
                 android.R.layout.simple_list_item_1, alunos
