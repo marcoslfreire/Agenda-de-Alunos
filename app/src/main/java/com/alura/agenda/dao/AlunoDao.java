@@ -1,7 +1,5 @@
 package com.alura.agenda.dao;
-
 import com.alura.agenda.model.Aluno;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +8,6 @@ public class AlunoDao {
     public void Salva(Aluno aluno) {
         alunos.add(aluno);
     }
-
     public List<Aluno> todos() {
         return new ArrayList<>(alunos);
     }
